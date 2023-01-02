@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/about.webp';
 import CV from '../../assets/Rahul Resume.pdf'
-import Info from './info';
+import Info from './Info';
 import { motion } from 'framer-motion';
 import { staggerContainer, fadeIn } from '../../utils/motion'
 import { TitleText } from '../CustomTexts';
