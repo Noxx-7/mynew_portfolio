@@ -45,7 +45,7 @@ const Libraries = ({variants}) => (
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-linux'></i>
+                <i class="fab fa-linux"></i>
 
                  <div>
                  <h3 className="skills__name">Linux</h3>

@@ -20,14 +20,14 @@ const Technologies = ({variants}) =>  (
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-devops' ></i>
+                <i class="fas fa-cogs"></i>
 
                  <div>
                     <h3 className="skills__name">DevOps</h3>
                  </div>
                 </div>
                 <div className="skills__data">
-                <i class='bx bxl-cloud' ></i>
+                <i class="fab fa-cloud"></i>
 
                  <div>
                     <h3 className="skills__name">Cloud Computing</h3>
