@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Libraries = ({variants}) => (
     <motion.div variants={variants} className="skills__content">
-      <h3 className="skills__title">Libraries</h3>
+      <h3 className="skills__title">Skills</h3>
 
     
       <div className='skills__box'>
@@ -36,29 +36,38 @@ const Libraries = ({variants}) => (
                  </div>
                 </div> */}
                 <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
+                <i class='bx bxl-aws'></i>
 
                  <div>
-                    <h3 className="skills__name">Framer Motion</h3>
+                    <h3 className="skills__name">AWS</h3>
                    
                  </div>
                 </div>
 
                 <div className="skills__data">
-                 <i class='bx bxl-bootstrap'></i>
+                <i class='bx bxl-linux'></i>
 
                  <div>
-                 <h3 className="skills__name">Bootstrap</h3>
+                 <h3 className="skills__name">Linux</h3>
                    
                  </div>
                 </div>
 
 
                 <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
+                <i class='bx bxl-python'></i>
 
                  <div>
-                    <h3 className="skills__name">NextJs</h3>
+                    <h3 className="skills__name">Python</h3>
+                   
+                 </div>
+                </div>
+
+                <div className="skills__data">
+                <i class='bx bxl-docker'></i>
+
+                 <div>
+                    <h3 className="skills__name">Docker</h3>
                    
                  </div>
                 </div>

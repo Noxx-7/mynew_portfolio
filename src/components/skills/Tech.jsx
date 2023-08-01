@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Technologies = ({variants}) =>  (
     <motion.div variants={variants} className="skills__content">
-        <h3 className="skills__title">Technologies</h3>
+        <h3 className="skills__title">Skills</h3>
 
         <div className="skills__box">
 
@@ -12,25 +12,25 @@ const Technologies = ({variants}) =>  (
                 
 
                 <div className="skills__data">
-                <i class='bx bxl-javascript' ></i>
+                <i class='bx bxl-java' ></i>
 
                  <div>
-                    <h3 className="skills__name">JavaScript </h3>
+                    <h3 className="skills__name">Java </h3>
                  </div>
                 </div>
 
                 <div className="skills__data">
-                 <i class='bx bxl-css3'></i>
+                <i class='bx bxl-devops' ></i>
 
                  <div>
-                    <h3 className="skills__name">CSS</h3>
+                    <h3 className="skills__name">DevOps</h3>
                  </div>
                 </div>
                 <div className="skills__data">
-                 <i class='bx bxl-css3'></i>
+                <i class='bx bxl-cloud' ></i>
 
                  <div>
-                    <h3 className="skills__name">Typescript</h3>
+                    <h3 className="skills__name">Cloud Computing</h3>
                  </div>
                 </div>
 
