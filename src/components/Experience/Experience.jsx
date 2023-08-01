@@ -32,15 +32,27 @@ const Qualifications = () => {
             </motion.div>
 
                 <motion.div variants={fadeIn('up', 'spring', 0.4, 1)} className={toggleState == 1 ? 'qualification__content qualification__content-active' : 'qualification__content'}>            
-                        <h3 className='qualification__title'>Twilio Field Operator (Rank 1) @ <span className='company'>Twilio</span> </h3>
-                        <small className='qualification__calender'>March 2022 - Present</small>
+                        <h3 className='qualification__title'>Flutter Trainee @ <span className='company'>Manastik </span> </h3>
+                        <small className='qualification__calender'>May 2023 - June 2023</small>
                         <motion.div variants={fadeIn('up', 'spring', 0.6, 1)} className='qualification__details'>
-                            <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> I am one of the Top 10 folks in India & Top 200 folks globally who have been accepted into the Twilio Field Operator program.</p>
-                            <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> We currently have over 350+ members on our discord server where I share programming and Twilio related knowledge.</p>
-                            <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> I will be writing blog posts, streaming content, planning, and hosting fun events on campus as a Twilio Campus Ambassador</p>
+                            <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> As the front-end developer, I am responsible for developing the application’s interface.</p>
+                            <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> My primary focus is creating responsive and user-friendly user interfaces using Flutter.</p>
+                            <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> Experience with front-end and API integration.</p>
                         </motion.div>
                 </motion.div>
+
                 <div className={toggleState == 2 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
+                   
+                        <h3 className='qualification__title'>Twilio Field Operator (Rank 1) @ <span className='company'>Twilio</span> </h3>
+                        <small className='qualification__calender'>March 2022 - March 2022 </small>
+                        <div className='qualification__details'>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> I am one of the Top 10 folks in India & Top 200 folks globally who have been accepted into the Twilio Field Operator program.</p>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> We currently have over 350+ members on our discord server where I share programming and Twilio related knowledge.</p>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> I will be writing blog posts, streaming content, planning, and hosting fun events on campus as a Twilio Campus Ambassador</p>
+                    </div>
+                </div>
+
+                <div className={toggleState == 3 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
                    
                         <h3 className='qualification__title'>Future Talent Ready Intern  @ <span className='company'>Microsoft</span> </h3>
                         <small className='qualification__calender'>March 2022 - July 2022 </small>
@@ -49,7 +61,7 @@ const Qualifications = () => {
                             <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> Developed a website, deployed it using Azure Static Web, and passed the Azure Fundamentals and Security Compliance exams.</p>
                     </div>
                 </div>
-                <div className={toggleState == 3 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
+                <div className={toggleState == 4 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
                     
                         <h3 className='qualification__title'>Contributor @ <span className='company'>GirlScript Summer of Code</span> </h3>
                         <small className='qualification__calender'>March 2022 - May 2022</small>
