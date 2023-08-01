@@ -24,11 +24,13 @@ const Qualifications = () => {
         <div className='qualification__container container'>
             <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className='qualification__tabs'>
                 <div className={toggleState === 1 ? 'qualification__button qualification__active button__flex' :
-                 'qualification__button button__flex'} onClick={()=> ToggleTab(1)}>Twilio</div>
+                 'qualification__button button__flex'} onClick={()=> ToggleTab(1)}>Manastik</div>
                 <div className={toggleState === 2 ? 'qualification__button qualification__active button__flex' :
-                 'qualification__button button__flex'} onClick={()=> ToggleTab(2)}>Microsoft</div>
+                 'qualification__button button__flex'} onClick={()=> ToggleTab(2)}>Twilio</div>
                 <div className={toggleState === 3 ? 'qualification__button qualification__active button__flex' :
-                 'qualification__button button__flex'} onClick={()=> ToggleTab(3)}>GirlScript Summer of Code</div>
+                 'qualification__button button__flex'} onClick={()=> ToggleTab(3)}>Microsoft</div>
+                  <div className={toggleState === 3 ? 'qualification__button qualification__active button__flex' :
+                 'qualification__button button__flex'} onClick={()=> ToggleTab(4)}>GirlScript Summer of Code</div>
             </motion.div>
 
                 <motion.div variants={fadeIn('up', 'spring', 0.4, 1)} className={toggleState == 1 ? 'qualification__content qualification__content-active' : 'qualification__content'}>            
